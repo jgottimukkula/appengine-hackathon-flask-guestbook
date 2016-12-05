@@ -13,7 +13,9 @@ new_venv\scripts\activate.bat
 
 pip install -r requirements.txt
 
-# deploy
+```
+## deploy
+```
 pip install -r requirements.txt -t lib
 gcloud app deploy --project=<projectname> --version=v1 ./guestbook.yaml
 
