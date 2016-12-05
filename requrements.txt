@@ -1,4 +1,0 @@
-flask
-flask-cors
-oauth2client==2.0.0
-google-cloud
