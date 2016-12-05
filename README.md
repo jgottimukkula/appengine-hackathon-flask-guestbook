@@ -1,7 +1,6 @@
 # appengine-hackathon-flask-guestbook
 ```
 Edit the guestbook.py file and update the <YOUR PROJECT ID> with your project id
-Edit the api.py and change Greeting to PythonGreeting()
 requirements is mis spelled.
 ```
 ## setup
