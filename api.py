@@ -10,7 +10,7 @@ api = Blueprint('guestbook', __name__)
 
 @api.route('/', methods=['GET', 'POST'])
 def main_page():
-    book = guestbook.PythonGreeting()
+    book = guestbook.Greeting()
     results = book.fetch_greetings()
     if request.method == 'GET':
         return render_template('main.html', comment=None, results=results)
